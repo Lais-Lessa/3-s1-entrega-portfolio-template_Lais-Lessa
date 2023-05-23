@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.projectsSection{
+    font-family: 'Inter', sans-serif;
+}
+
+.titleProjects{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color:#FFFFFF;
+    padding: 0 27px;
+}
+
+.projectNav{
+    
+    padding: 0 15px;
+}
+
+.liProject{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    width: 90%;
+    height: 180px;
+    margin: 25px;
+    display: flex;
+    padding: 20px 26px;
+    justify-content: space-between;
+}
+
+.itemContent{
+    display: flex;
+    flex-direction: column;
+    min-width: 80%;
+}
+
+.nameProject{
+    color:#FFFFFF;
+    font-weight: 800;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.descriptionProject{
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.projectImg{
+    width: 37px;
+    height: 35px;
+}
+
+.projectAncora{
+   margin-top: 20px;
+   text-decoration: none;
+
+}
+
+.projectAncora:hover{
+    width: max-content;
+    border-bottom: 1px solid #0000ee;
+}
+
+@media (min-width: 628px){
+    .projectsSection{
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .titleProjects{
+        margin-top: 101px;
+    }
+
+    .projectNav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: max-content;
+        padding: 0;
+        justify-content: space-between;
+
+    }
+
+    .liProject{
+        width: 439px;
+        height: 180px;
+        margin: 0;
+        margin-top: 19px;
+    }
+
+    .itemContent{
+        height: 100%;
+        justify-content: space-between;
+    }
+}

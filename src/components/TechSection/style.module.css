@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.techSection{
+    padding: 0 27px;
+
+}
+
+.titleTech{
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    color:#FFFFFF;
+
+}
+
+.liTech{
+    list-style: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    width: 250px;
+    height: 70px;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 34px;
+}
+
+.techImg{
+    width: 28px;
+    height: 32px;
+}
+
+.textTech{
+    color:#FFFFFF;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 26px;
+    font-family: 'Inter', sans-serif;
+ 
+}
+
+@media(min-width:638px){
+    .techSection{
+        max-width: 900px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .techNav{
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: max-content;
+        gap: 17px;
+    }
+    .liTech{
+        margin: 0;
+    }
+
+    .titleTech{
+        margin-bottom: 28px;
+    }
+}
